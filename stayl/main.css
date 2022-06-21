@@ -1,0 +1,265 @@
+*{
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+body{
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #000000;
+}
+.continer{
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+header{
+  box-shadow: 0px 3px 15px 0px #e0d8d8;
+}
+.header-section{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.logo{
+  cursor: pointer;
+  transition: 0.3s;
+}
+.logo:hover{
+  opacity: 0.8;
+}
+.logo:active{
+  opacity: 0.4;
+}
+.header-body{
+  display: flex;
+  align-items: center;
+}
+.header-ul{
+  display: flex;
+  align-items: center;
+}
+.ul-herf{
+  padding: 16px;
+  color: #000000;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.ul-herf:hover{
+  border-bottom: solid 3px black;
+}
+.ul-herf:active{
+  background: rgba(25, 25, 25, 0.7);
+  border: none;
+}
+.nomber{
+margin-left: 10px;  
+align-items: center;
+padding: 8px 16px;
+background: #00BAFC;
+border-radius: 5px;
+color: white;
+border: solid transparent;
+transition: 0.3s;
+cursor: pointer;
+}
+.nomber:hover{
+  border: solid 3px #00BAFC;
+  background-color: white;
+  color: #00BAFC;
+}
+.nomber:active{
+  border: solid transparent;
+  background-color: rgba(0, 186, 252, 0.6);
+  color: white;
+}
+
+.main-section-1{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 80px;
+}
+.main-1{
+  width: 435px;
+}
+h1{
+  margin-left: 12px;
+  font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 130%;
+color: #000000;
+}
+.pong-1{
+  margin-left: 12px;
+  margin-bottom: 18px;
+}
+iframe{
+  margin-right: 15px;
+  border-radius: 5px;
+}
+.body-1{
+  margin-top: 136px;
+  text-align: center;
+}
+.body-2{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.woo{
+  margin: 20px;
+  width: 320px;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s  ;
+}
+.woo:hover{
+  box-shadow: 0px 8px 10px 2px rgb(223, 215, 215);
+}
+.linklar{
+  text-align: center;
+}
+.herf-1{
+ margin-left: 10px; 
+ width: 192px;
+height: 24px;
+text-align: center;
+color: #00BAFC;
+cursor: pointer;
+transition: 0.3s;
+}
+.herf-1:hover{
+  text-decoration-line: underline;
+}
+.body-4{
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.body-6{
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around; 
+}
+.body-8{
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around; 
+}
+.body-10{
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around; 
+}
+.body-12{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around; 
+}
+
+.nomber-1{
+  margin-left: 500px;  
+  align-items: center;
+  padding: 8px 16px;
+  background: #00BAFC;
+  border-radius: 5px;
+  color: white;
+  border: solid transparent;
+  transition: 0.3s;
+  cursor: pointer;
+  }
+  .nomber-1:hover{
+    border: solid 3px #00BAFC;
+    background-color: white;
+    color: #00BAFC;
+  }
+  .nomber-1:active{
+    border: solid transparent;
+    background-color: rgba(0, 186, 252, 0.6);
+    color: white;
+  }
+  .saction-4{
+    margin-top: 50px;
+    padding: 50px 0px;
+    background-color: #00BAFC;
+    color: white;
+  }
+  .body-5{
+    margin-top: 50px;
+    text-align: center;
+  }
+  form{
+    margin-left: 400px;
+    padding: 20px;
+    width: 350px;
+    height: 300px;
+    text-align: center;
+    background-color: white;
+  }
+  input{
+    margin: 10px;
+    width: 300px;
+    height: 50px;
+    padding-left: 10px;
+    border: none;
+    background-color: rgb(230, 224, 216);
+  }
+  button{
+    width: 200px;
+    height: 50px;
+    background-color: #00BAFC;
+    color: white;
+    border: solid transparent;
+    cursor: pointer;
+    transition: 00.3s;
+  }
+  button:hover{
+    border: solid 3px #00BAFC;
+    background-color: white;
+    color: #00BAFC;
+  }
+  button:active{
+    border: solid transparent;
+    background-color: rgba(0, 186, 252, 0.6);
+    color: white;
+  }
+  footer{
+    background-color: #222121;
+    color: white;
+    padding: 20px 0;
+  }
+  .footer-section{
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+  }
+  .footer-pong{
+    width: 320px;
+    margin-right: 50px;
+  }
+  .footer-ul{
+    margin-right: 50px;
+  }
+.footer-link{
+  color: white;
+}
+.footer-sayt{
+  margin-top: -28px;
+}
+.sayt{
+  color: white;
+}

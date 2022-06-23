@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 *{
   box-sizing: border-box;
   text-decoration: none;
@@ -208,6 +209,7 @@ transition: 0.3s;
     height: 300px;
     text-align: center;
     background-color: white;
+    border-radius: 5px;
   }
   input{
     margin: 10px;
@@ -262,4 +264,55 @@ transition: 0.3s;
 }
 .sayt{
   color: white;
+}
+.sarlavha-2{
+  margin-top: 80px;
+  text-align: center;
+  font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 130%;
+color: #000000;
+}
+.porag-2{
+  text-align: center;
+}
+.pixer-1{
+  margin: 50px auto 0;
+  width: 800px;
+  /* height: 330px; */
+  padding: 20px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  box-shadow: 0px 3px 10px 2px rgb(216, 210, 210);
+}
+h4{
+  padding: 0;
+  margin: 0;
+}
+.body-pixer-1{
+  padding-left: 40px;
+}
+.pixer-section{
+  margin-left: -40px;
+}
+li{
+  display: flex;
+  align-items: center;
+}
+span{
+  margin-right: 10px;
+  display: block;
+  width: 12px;
+height: 12px;
+background: #00BAFC;
+border-radius: 12px;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.linklar-2{
+  margin-left: -10px;
 }
